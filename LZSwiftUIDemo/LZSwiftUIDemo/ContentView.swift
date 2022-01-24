@@ -18,12 +18,20 @@ struct ContentView: View {
                     .multilineTextAlignment(.center)
                     .padding()
                 
-                NavigationLink(destination: Text("Detail View")) {
+                NavigationLink(destination: DetailUIView()) {
+                    Text("DetailUIView")
+                        .font(.title)
+                        .foregroundColor(.green)
+                }
+
+                NavigationLink(destination: SecondContentView()) {
                     Text("2")
                     
                 }
-                
-                Text("3")
+                VStack {
+                    Text("3")
+                    Text("4")
+                }
                 
             }
             .navigationBarTitle(Text("标题"))

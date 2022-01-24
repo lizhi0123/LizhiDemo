@@ -14,6 +14,10 @@
 		047FE322279E560600485DC1 /* LZSwiftUIDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047FE321279E560600485DC1 /* LZSwiftUIDemoTests.swift */; };
 		047FE32C279E560600485DC1 /* LZSwiftUIDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047FE32B279E560600485DC1 /* LZSwiftUIDemoUITests.swift */; };
 		047FE32E279E560600485DC1 /* LZSwiftUIDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047FE32D279E560600485DC1 /* LZSwiftUIDemoUITestsLaunchTests.swift */; };
+		047FE33F279E7BB500485DC1 /* SecondContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047FE33E279E7BB500485DC1 /* SecondContentView.swift */; };
+		047FE341279E7EAE00485DC1 /* DetailUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047FE340279E7EAE00485DC1 /* DetailUIView.swift */; };
+		047FE343279E813A00485DC1 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047FE342279E813A00485DC1 /* CircleImage.swift */; };
+		047FE345279E82A000485DC1 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047FE344279E82A000485DC1 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		047FE327279E560600485DC1 /* LZSwiftUIDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LZSwiftUIDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		047FE32B279E560600485DC1 /* LZSwiftUIDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LZSwiftUIDemoUITests.swift; sourceTree = "<group>"; };
 		047FE32D279E560600485DC1 /* LZSwiftUIDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LZSwiftUIDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		047FE33E279E7BB500485DC1 /* SecondContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondContentView.swift; sourceTree = "<group>"; };
+		047FE340279E7EAE00485DC1 /* DetailUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailUIView.swift; sourceTree = "<group>"; };
+		047FE342279E813A00485DC1 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		047FE344279E82A000485DC1 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +82,7 @@
 		047FE304279E560000485DC1 = {
 			isa = PBXGroup;
 			children = (
+				047FE344279E82A000485DC1 /* MapView.swift */,
 				047FE30F279E560000485DC1 /* LZSwiftUIDemo */,
 				047FE320279E560600485DC1 /* LZSwiftUIDemoTests */,
 				047FE32A279E560600485DC1 /* LZSwiftUIDemoUITests */,
@@ -96,6 +105,9 @@
 			children = (
 				047FE310279E560000485DC1 /* LZSwiftUIDemoApp.swift */,
 				047FE312279E560000485DC1 /* ContentView.swift */,
+				047FE340279E7EAE00485DC1 /* DetailUIView.swift */,
+				047FE342279E813A00485DC1 /* CircleImage.swift */,
+				047FE33E279E7BB500485DC1 /* SecondContentView.swift */,
 				047FE314279E560500485DC1 /* Assets.xcassets */,
 				047FE316279E560500485DC1 /* Preview Content */,
 			);
@@ -258,7 +270,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				047FE313279E560000485DC1 /* ContentView.swift in Sources */,
+				047FE345279E82A000485DC1 /* MapView.swift in Sources */,
+				047FE341279E7EAE00485DC1 /* DetailUIView.swift in Sources */,
+				047FE33F279E7BB500485DC1 /* SecondContentView.swift in Sources */,
 				047FE311279E560000485DC1 /* LZSwiftUIDemoApp.swift in Sources */,
+				047FE343279E813A00485DC1 /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
