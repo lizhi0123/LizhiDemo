@@ -18,7 +18,13 @@ struct ContentView: View {
                     .multilineTextAlignment(.center)
                     .padding()
                 
-                NavigationLink(destination: DetailUIView()) {
+                NavigationLink(destination: LandmarkList()) {
+                    Text("LandmarkList")
+                        .font(.title)
+                        .foregroundColor(.green)
+                }
+                
+                NavigationLink(destination: DetailUIView(landmark: landmarkData[0])) {
                     Text("DetailUIView")
                         .font(.title)
                         .foregroundColor(.green)
